@@ -25,7 +25,7 @@ export const products: Product[] = [
     thickness: "1.2–1.4 mm",
     applications: ["Footwear", "Leather goods", "Furniture"],
     colors: ["Cognac", "Espresso", "Black"],
-    image: "/manus-storage/anatolia-products_db875690.jpg",
+    image: "/images/3.jpg",
     description: "A naturally expressive surface with depth, resilience and a considered hand feel.",
     featured: true,
     tags: ["Traceable", "Premium surface"],
@@ -39,7 +39,7 @@ export const products: Product[] = [
     thickness: "0.9–1.1 mm",
     applications: ["Footwear", "Bags", "Small leather goods"],
     colors: ["Tobacco", "Mushroom", "Ink"],
-    image: "/manus-storage/anatolia-craft_8c4d1808.jpg",
+    image: "/images/4.jpg",
     description: "A refined, consistent grain for collections where tactility meets dependable performance.",
     featured: true,
     tags: ["Consistent grain", "European delivery"],
@@ -53,7 +53,7 @@ export const products: Product[] = [
     thickness: "0.8–1.0 mm",
     applications: ["Footwear", "Apparel", "Accessories"],
     colors: ["Sand", "Rust", "Moss"],
-    image: "/manus-storage/anatolia-products_db875690.jpg",
+    image: "/images/3.jpg",
     description: "A soft-touch suede with a precise nap and a palette built for modern European collections.",
     featured: true,
     tags: ["Soft touch", "Colour library"],
@@ -67,7 +67,7 @@ export const products: Product[] = [
     thickness: "1.0–1.3 mm",
     applications: ["Furniture", "Footwear", "Interior"],
     colors: ["Clay", "Walnut", "Charcoal"],
-    image: "/manus-storage/anatolia-products_db875690.jpg",
+    image: "/images/3.jpg",
     description: "A versatile base for applications that call for uniformity, durability and a confident finish.",
     tags: ["Reliable supply", "Made to brief"],
   },
@@ -80,7 +80,7 @@ export const products: Product[] = [
     thickness: "0.7–0.9 mm",
     applications: ["Leather goods", "Apparel", "Automotive"],
     colors: ["Oxblood", "Hazelnut", "Black"],
-    image: "/manus-storage/anatolia-craft_8c4d1808.jpg",
+    image: "/images/4.jpg",
     description: "Supple, luminous and quietly expressive, with the drape and softness premium makers expect.",
     tags: ["Supple hand", "Low-impact finish"],
   },
@@ -93,7 +93,7 @@ export const products: Product[] = [
     thickness: "1.1–1.3 mm",
     applications: ["Footwear", "Workwear", "Furniture"],
     colors: ["Stone", "Chestnut", "Night"],
-    image: "/manus-storage/anatolia-products_db875690.jpg",
+    image: "/images/3.jpg",
     description: "A clean, stable surface for repeat programmes and demanding everyday applications.",
     tags: ["Repeatable quality", "Performance-led"],
   },
@@ -117,17 +117,17 @@ export const contactDetails = {
 };
 
 export const imagePaths = {
-  hero: "/manus-storage/anatolia-hero_7a9c40d3.jpg",
-  heroNatural: "/manus-storage/anatolia-hero-natural_22d83408.jpg",
-  products: "/manus-storage/anatolia-products_db875690.jpg",
-  craft: "/manus-storage/anatolia-craft_8c4d1808.jpg",
-  logo: "/manus-storage/anatolia-ah-mark_2b77a053.png",
+  hero: "/images/1.png",
+  heroNatural: "/images/2.png",
+  products: "/images/3.jpg",
+  craft: "/images/4.jpg",
+  logo: "/images/logo.png",
 };
 
 export const catalogPath = "/manus-storage/material-overview_a763ad99.pdf";
 
 export const brand = {
-  name: "Turco Pelle",
+  name: "Anatolia Hides",
   eyebrow: "Turkish leather / European supply",
   location: "Zeytinburnu, Istanbul",
   since: "Since 1999",
@@ -166,7 +166,7 @@ export const marketFacts = [
 
 export const faqItems = [
   { q: "Can I request a physical sample?", a: "Yes. Share your application, target finish and preferred colour through our contact form. Our export desk will come back with the next step." },
-  { q: "Where is Turco Pelle based?", a: "Our Istanbul base is in Zeytinburnu. We also maintain warehouse support in Switzerland for European partners." },
+  { q: "Where is Anatolia Hides based?", a: "Our Istanbul base is in Zeytinburnu. We also maintain warehouse support in Switzerland for European partners." },
   { q: "Do you work with custom briefs?", a: "Yes. We can discuss finish, thickness, colour direction and application requirements during development." },
 ];
 
@@ -196,7 +196,7 @@ export const collectionCards = [
 export const footerLinks = [
   { label: "Materials", href: "/products" },
   { label: "Our approach", href: "/sustainability" },
-  { label: "About Turco Pelle", href: "/about" },
+  { label: "About Anatolia Hides", href: "/about" },
   { label: "Italy / Germany / UK", href: "/markets/italy" },
   { label: "Footwear / Leather goods", href: "/sectors/footwear" },
   { label: "Request a sample", href: "/contact?enquiry=Request%20a%20sample" },
@@ -209,7 +209,7 @@ export const languageLabel = "EN / TR";
 
 export const brandStatement = "Leather with character. Crafted for the world.";
 
-export const smallPrint = "Turco Pelle is a material partner, not an online store. Product availability and certification details are shared during qualified enquiries.";
+export const smallPrint = "Anatolia Hides is a material partner, not an online store. Product availability and certification details are shared during qualified enquiries.";
 
 export const productPageIntro = "A considered library of hides, finishes and surfaces for makers who care about what happens before the final product.";
 
@@ -220,7 +220,7 @@ export const contactIntro = "Tell us what you are developing. We will help you f
 export const notFoundCopy = "The page you are looking for has moved, but the material library is still open.";
 
 export const siteMeta = {
-  title: "Turco Pelle — Turkish leather / European supply",
+  title: "Anatolia Hides — Turkish leather / European supply",
   description: "Premium Turkish leather, developed in Istanbul since 1999 and supplied to European makers.",
 };
 
@@ -262,7 +262,7 @@ export const socialLinks = [{ label: "LinkedIn", href: "https://www.linkedin.com
 
 export const companyLine = "Istanbul / Switzerland";
 
-export const sourceNote = "Visuals are editorially generated for the Turco Pelle concept website.";
+export const sourceNote = "Visuals are editorially generated for the Anatolia Hides concept website.";
 
 export const calloutLabels = ["Origin", "Surface", "Continuity"];
 
@@ -299,7 +299,7 @@ export const sectionEyebrows = {
 export const ariaLabels = {
   menu: "Open navigation",
   close: "Close navigation",
-  brand: "Turco Pelle home",
+  brand: "Anatolia Hides home",
 };
 
 export const supportedMarkets = serviceAreas;
@@ -366,13 +366,13 @@ export const locationLabel = "Zeytinburnu / Istanbul";
 
 export const metadataKeywords = ["Turkish leather", "leather exporter", "Istanbul leather", "European leather supply"];
 
-export const homeMetaTitle = "Turco Pelle | Turkish leather for European makers";
+export const homeMetaTitle = "Anatolia Hides | Turkish leather for European makers";
 
-export const productMetaTitle = "Materials | Turco Pelle";
+export const productMetaTitle = "Materials | Anatolia Hides";
 
-export const sustainabilityMetaTitle = "Responsible process | Turco Pelle";
+export const sustainabilityMetaTitle = "Responsible process | Anatolia Hides";
 
-export const contactMetaTitle = "Contact | Turco Pelle";
+export const contactMetaTitle = "Contact | Anatolia Hides";
 
 export const noResultsCopy = "No materials match that combination yet. Try widening your brief.";
 
@@ -464,7 +464,7 @@ export const endnote = "Material imagery for presentation purposes. Confirmed sp
 
 export const firstSectionTitle = "A material partner for considered products.";
 
-export const firstSectionCopy = "For more than two decades, Turco Pelle has connected Istanbul’s leather craft with the standards of European product teams.";
+export const firstSectionCopy = "For more than two decades, Anatolia Hides has connected Istanbul’s leather craft with the standards of European product teams.";
 
 export const collectionIntro = "A small view into a larger material conversation.";
 
@@ -524,7 +524,7 @@ export const formResetLabel = "Start another enquiry";
 
 export const sustainabilityQuote = "The most credible material story is the one that can be examined.";
 
-export const sustainabilitySignature = "— Turco Pelle / Istanbul";
+export const sustainabilitySignature = "— Anatolia Hides / Istanbul";
 
 export const certificationNote = "Certification status and compliance documents are shared with qualified buyers on request.";
 
@@ -538,7 +538,7 @@ export const productImageCaption = "Material library / current edit";
 
 export const brandShort = "AH";
 
-export const pageOverline = "TURCO PELLE / EST. 1999";
+export const pageOverline = "ANATOLIA HIDES / EST. 1999";
 
 export const footerDescriptor = "Premium Turkish leather / European supply";
 
@@ -564,7 +564,7 @@ export const useCase = "B2B export website";
 
 export const designDirection = "Quiet luxury / tactile editorial";
 
-export const officialName = "Turco Pelle Istanbul";
+export const officialName = "Anatolia Hides Istanbul";
 
 export const contactPhoneTurkey = "+90 536 847 6521";
 
@@ -662,7 +662,7 @@ export const salesLanguage = "Request a sample / Get a quote";
 
 export const visualAssetNote = "Generated editorial assets used for the concept release.";
 
-export const pageFooterLabel = "Turco Pelle / Material partner";
+export const pageFooterLabel = "Anatolia Hides / Material partner";
 
 export const endCtaTitle = "The right material changes everything.";
 
@@ -672,7 +672,7 @@ export const directEnquiryLabel = "Direct enquiry";
 
 export const emailFallbackNote = "Connect your preferred email provider on Vercel for production lead capture.";
 
-export const finalLabel = "© Turco Pelle Istanbul";
+export const finalLabel = "© Anatolia Hides Istanbul";
 
 export const createdFor = "European makers";
 
@@ -787,15 +787,15 @@ export default products;
 
 // End.
 
-// Data boundary marker: TURCO_PELLE_CONTENT
+// Data boundary marker: ANATOLIA_HIDES_CONTENT
 
 // Data schema version: 1
 
-// Data owner: Turco Pelle export desk
+// Data owner: Anatolia Hides export desk
 
 // Review with the client before production publication.
 
-// Visual asset references use /manus-storage paths created for the project.
+// Visual asset references point to client/public/images/.
 
 // Nothing in this file should be interpreted as a certification claim.
 
@@ -819,7 +819,7 @@ export default products;
 
 // 2026.
 
-// Turco Pelle.
+// Anatolia Hides.
 
 // Istanbul.
 
@@ -859,7 +859,7 @@ export default products;
 
 // EOF.
 
-// Turco Pelle.
+// Anatolia Hides.
 
 // —
 
@@ -903,7 +903,7 @@ export default products;
 
 //
 
-// Turco Pelle Istanbul
+// Anatolia Hides Istanbul
 
 //
 
@@ -957,7 +957,7 @@ export default products;
 
 //
 
-// Turco Pelle / 1999.
+// Anatolia Hides / 1999.
 
 //
 
@@ -1197,7 +1197,7 @@ export default products;
 
 //
 
-// Turco Pelle.
+// Anatolia Hides.
 
 //
 
