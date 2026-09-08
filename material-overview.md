@@ -1,4 +1,4 @@
-# Anatolia Hides
+# Turco Pelle
 
 ## Material overview
 
@@ -10,7 +10,7 @@ Zeytinburnu, Istanbul · Switzerland warehouse support
 
 ## A considered material partner
 
-Since 1999, Anatolia Hides has connected Istanbul leather craft with product teams and makers across Europe. We work with qualified B2B enquiries for footwear, leather goods, furniture and interior applications.
+Since 1999, Turco Pelle has connected Istanbul leather craft with product teams and makers across Europe. We work with qualified B2B enquiries for footwear, leather goods, furniture and interior applications.
 
 There are no prices or online orders in this catalogue. Every programme starts with a material brief, a practical sample conversation and a clear next step.
 
@@ -57,6 +57,6 @@ Our sustainability conversation is practical and documentation-led. Certificatio
 **Turkey / WhatsApp:** +90 536 847 6521  
 **Switzerland:** +41 78 336 04 25
 
-**Request a sample:** anatoliahides.com/en/contact?enquiry=Request%20a%20sample
+**Request a sample:** turcopelle.com/en/contact?enquiry=Request%20a%20sample
 
-*Anatolia Hides is a material partner, not an online store. Product availability and certification details are shared during qualified enquiries.*
+*Turco Pelle is a material partner, not an online store. Product availability and certification details are shared during qualified enquiries.*

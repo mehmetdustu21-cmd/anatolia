@@ -79,7 +79,7 @@ export function SiteFooter() {
             <div className="mt-8 flex gap-5">{socialLinks.map((social) => <a key={social.label} href={social.href} target="_blank" rel="noreferrer" className="font-sans text-[10px] uppercase tracking-[0.18em] text-[#f3efe8]/55 transition-colors hover:text-[#d4b491]">{social.label}</a>)}</div>
           </div>
         </div>
-        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-white/10 pt-5 font-sans text-[10px] uppercase tracking-[0.17em] text-[#f3efe8]/35 md:flex-row"><span>© {currentYear} Anatolia Hides Istanbul</span><span>{brand.location} · Switzerland</span><div className="flex gap-4">{legalLinks.map((link) => <span key={link}>{link}</span>)}</div></div>
+        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-white/10 pt-5 font-sans text-[10px] uppercase tracking-[0.17em] text-[#f3efe8]/35 md:flex-row"><span>© {currentYear} Turco Pelle Istanbul</span><span>{brand.location} · Switzerland</span><div className="flex gap-4">{legalLinks.map((link) => <span key={link}>{link}</span>)}</div></div>
       </div>
     </footer>
   );

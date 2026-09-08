@@ -20,7 +20,7 @@ export default function Contact() {
   const leatherOptions = useMemo(() => [{ value: "Full grain", label: t.leatherFullGrain }, { value: "Top grain", label: t.leatherTopGrain }, { value: "Suede", label: t.leatherSuede }, { value: "Split leather", label: t.leatherSplit }], [t]);
   const thicknessOptions = ["0.7–0.9 mm", "0.9–1.1 mm", "1.1–1.3 mm", "1.2–1.4 mm", "Custom / please advise"];
   const canContinue = step === 1 ? Boolean(form.enquiry) : Boolean(form.leatherType && form.thickness);
-  const message = ["Anatolia Hides — B2B material enquiry", `Request: ${form.enquiry}`, `Company: ${form.company}`, `Target delivery country: ${form.country}`, `Leather type: ${form.leatherType}`, `Thickness: ${form.thickness}`, `Contact name: ${form.name}`, `Email: ${form.email}`, `Phone / WhatsApp: ${form.phone || "—"}`, `Application: ${form.application || "—"}`, `Programme size: ${form.volume || "—"}`, `Brief: ${form.message || "—"}`].join("\n");
+  const message = ["Turco Pelle — B2B material enquiry", `Request: ${form.enquiry}`, `Company: ${form.company}`, `Target delivery country: ${form.country}`, `Leather type: ${form.leatherType}`, `Thickness: ${form.thickness}`, `Contact name: ${form.name}`, `Email: ${form.email}`, `Phone / WhatsApp: ${form.phone || "—"}`, `Application: ${form.application || "—"}`, `Programme size: ${form.volume || "—"}`, `Brief: ${form.message || "—"}`].join("\n");
   const whatsappUrl = `https://wa.me/905368476521?text=${encodeURIComponent(message)}`;
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => { event.preventDefault(); setReviewOpen(true); };
   const confirmWhatsApp = () => { setReviewOpen(false); setSubmitted(true); window.setTimeout(() => window.location.assign(whatsappUrl), 1500); };

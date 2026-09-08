@@ -27,7 +27,7 @@ function LocaleSeo() {
     const labels: Record<string, string> = { en: "Turkish leather / European supply", de: "Türkisches Leder / europäische Versorgung", it: "Pelle turca / fornitura europea" };
     const descriptions: Record<string, string> = { en: "Premium Turkish leather, developed in Istanbul since 1999 and supplied to European makers.", de: "Premium türkisches Leder, seit 1999 in Istanbul entwickelt und an europäische Hersteller geliefert.", it: "Pelle turca premium, sviluppata a Istanbul dal 1999 e fornita ai produttori europei." };
     document.documentElement.lang = language;
-    document.title = `Anatolia Hides — ${labels[language]}`;
+    document.title = `Turco Pelle — ${labels[language]}`;
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement("meta"); meta.setAttribute("name", "description"); document.head.appendChild(meta); }
     meta.setAttribute("content", descriptions[language]);
