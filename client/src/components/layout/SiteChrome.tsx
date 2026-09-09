@@ -16,23 +16,14 @@ export function BrandMark({ compact = false }: { compact?: boolean }) {
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const [location] = useLocation();
-  const isHome = location === "/";
   const { t, language, setLanguage, localizedPath } = useI18n();
   const translatedNav = [{ label: t.navMaterials, href: "/products" }, { label: t.navSustainability, href: "/sustainability" }, { label: t.navAbout, href: "/about" }, { label: t.navContact, href: "/contact" }];
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => setOpen(false), [location]);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled || !isHome ? "border-b border-[#ded6ca]/80 bg-[#f3efe8]/94 text-[#1b1916] shadow-[0_10px_40px_rgba(30,20,10,0.06)] backdrop-blur-xl" : "bg-transparent text-white"}`}>
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-[#ded6ca]/80 bg-[#f3efe8]/94 text-[#1b1916] shadow-[0_10px_40px_rgba(30,20,10,0.06)] backdrop-blur-xl">
       <div className="mx-auto flex h-[78px] max-w-[1440px] items-center justify-between px-5 md:px-10 lg:px-14">
         <BrandMark />
         <nav aria-label={navAria} className="hidden items-center gap-8 lg:flex">
@@ -40,7 +31,7 @@ export function SiteHeader() {
         </nav>
         <div className="hidden items-center gap-5 lg:flex">
           <span className="font-sans text-[10px] uppercase tracking-[0.2em] opacity-55">{t.exportDesk}</span>
-          <div className="flex items-center gap-3"><select aria-label="Language" value={language} onChange={(event) => setLanguage(event.target.value as "en" | "de" | "it")} className="bg-transparent font-sans text-[10px] font-semibold tracking-[0.16em] outline-none"><option value="en">EN</option><option value="de">DE</option><option value="it">IT</option></select><Link href={localizedPath("/contact?enquiry=Request%20a%20sample")} className={`inline-flex items-center gap-2 rounded-full border px-4 py-2.5 font-sans text-[10px] font-semibold uppercase tracking-[0.16em] transition-all duration-300 hover:-translate-y-0.5 ${scrolled || !isHome ? "border-[#1b1916]/25 hover:bg-[#1b1916] hover:text-[#f3efe8]" : "border-white/35 hover:border-white hover:bg-white hover:text-[#1b1916]"}`}>{t.requestSample} <ArrowUpRight size={13} strokeWidth={1.5} /></Link></div>
+          <div className="flex items-center gap-3"><select aria-label="Language" value={language} onChange={(event) => setLanguage(event.target.value as "en" | "de" | "it")} className="bg-transparent font-sans text-[10px] font-semibold tracking-[0.16em] outline-none"><option value="en">EN</option><option value="de">DE</option><option value="it">IT</option></select><Link href={localizedPath("/contact?enquiry=Request%20a%20sample")} className="inline-flex items-center gap-2 rounded-full border border-[#1b1916]/25 px-4 py-2.5 font-sans text-[10px] font-semibold uppercase tracking-[0.16em] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#1b1916] hover:text-[#f3efe8]">{t.requestSample} <ArrowUpRight size={13} strokeWidth={1.5} /></Link></div>
         </div>
         <button type="button" className="grid size-10 place-items-center lg:hidden" aria-label={open ? ariaLabels.close : ariaLabels.menu} onClick={() => setOpen((value) => !value)}>{open ? <X size={21} strokeWidth={1.25} /> : <Menu size={21} strokeWidth={1.25} />}</button>
       </div>
@@ -79,7 +70,7 @@ export function SiteFooter() {
             <div className="mt-8 flex gap-5">{socialLinks.map((social) => <a key={social.label} href={social.href} target="_blank" rel="noreferrer" className="font-sans text-[10px] uppercase tracking-[0.18em] text-[#f3efe8]/55 transition-colors hover:text-[#d4b491]">{social.label}</a>)}</div>
           </div>
         </div>
-        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-white/10 pt-5 font-sans text-[10px] uppercase tracking-[0.17em] text-[#f3efe8]/35 md:flex-row"><span>© {currentYear} Turco Pelle Istanbul</span><span>{brand.location} · Switzerland</span><div className="flex gap-4">{legalLinks.map((link) => <span key={link}>{link}</span>)}</div></div>
+        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-white/10 pt-5 font-sans text-[10px] uppercase tracking-[0.17em] text-[#f3efe8]/35 md:flex-row"><span>© {currentYear} Anatolia Hides Istanbul</span><span>{brand.location} · Switzerland</span><div className="flex gap-4">{legalLinks.map((link) => <span key={link}>{link}</span>)}</div></div>
       </div>
     </footer>
   );
